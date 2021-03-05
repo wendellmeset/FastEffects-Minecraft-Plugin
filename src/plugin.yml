@@ -1,0 +1,26 @@
+name: FastEffects
+version: 1.0
+main: me..wendellmeset.fasteffects.Main
+author: Sherlock/Wendellmeset
+description: Allows you to quickly give yourself potion effects!
+api-version: 1.13
+commands:
+  speed:
+    description: Usage /speed <duration> (The duration must be a number and is in the form of minecraft ticks)
+    permission: FastEffects.speed
+    permission-message: &cNo Permission
+  night:
+    description: Usage /night <duration> (The duration must be a number and is in the form of minecraft ticks)
+    aliases: [vision]
+    permission: FastEffects.night
+    permission-message: &cNo Permission
+  invincable:
+    description: Usage /invincable <duration> (The duration must be a number and is in the form of minecraft ticks)
+    aliases: [resistance]
+    permission: FastEffects.invincable
+    permission-message: &cNo Permission
+  jump:
+    description: Usage /jump <duration> (The duration must be a number and is in the form of minecraft ticks)
+    aliases: [jumpboost]
+    permission: FastEffects.jump
+    permission-message: &cNo Permission
